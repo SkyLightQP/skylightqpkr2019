@@ -23,7 +23,15 @@
     "typescript": "3.6.3"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": ["react-app", "airbnb"],
+    "rules": {
+      "jsx-quotes": "off",
+      "arrow-body-style": "off",
+      "indent": "off",
+      "react/jsx-indent": "off",
+      "react/jsx-filename-extension": "off",
+      "import/no-unresolved": "off"
+    }
   },
   "browserslist": {
     "production": [
