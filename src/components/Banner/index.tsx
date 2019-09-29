@@ -5,11 +5,9 @@ const Banner: React.FC = () => {
         <section className='hero is-dark is-medium'>
             <div className='hero-body'>
                 <div className='container'>
-                    <h1 className='title'>
-                        Hero title
-                    </h1>
+                    <h1 className='title'>“인터넷으로 얻은 지식은 인터넷으로”</h1>
                     <h2 className='subtitle'>
-                        Hero subtitle
+                        고등학생 개발자, 하늘빛입니다.
                     </h2>
                 </div>
             </div>

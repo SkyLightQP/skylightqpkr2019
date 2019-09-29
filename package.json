@@ -9,9 +9,14 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "bulma": "^0.7.5",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
+    "react-router-dom": "^5.1.1",
     "react-scripts": "3.1.2",
     "styled-components": "^4.4.0"
   },
@@ -20,6 +25,7 @@
     "@types/node": "12.7.8",
     "@types/react": "16.9.3",
     "@types/react-dom": "16.9.1",
+    "@types/react-router-dom": "^5.1.0",
     "@types/styled-components": "^4.1.19",
     "eslint-config-airbnb": "^18.0.1",
     "typescript": "3.6.3"
@@ -30,12 +36,14 @@
       "airbnb"
     ],
     "rules": {
-      "arrow-body-style": "off",
-      "indent": "off",
-      "react/jsx-indent": "off",
-      "react/jsx-filename-extension": "off",
-      "import/no-unresolved": "off",
-      "jsx-quotes": "off"
+      "arrow-body-style": 0,
+      "indent": 0,
+      "react/jsx-indent": 0,
+      "react/jsx-filename-extension": 0,
+      "import/no-unresolved": 0,
+      "jsx-quotes": 0,
+      "react/no-unescaped-entities": 0,
+      "react/jsx-tag-spacing": 0
     }
   },
   "browserslist": {
