@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const TitleStyle = styled.p`
   font-size: 26px;
   font-weight: bold;
-  margin: 16px auto;
+  margin: 18px auto;
   letter-spacing: 4px;
 `;
 

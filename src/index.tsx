@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import App from './App';
 import 'bulma/css/bulma.css';
+import 'bulma-timeline/dist/css/bulma-timeline.min.css';
 
 const router = (
     <BrowserRouter>
