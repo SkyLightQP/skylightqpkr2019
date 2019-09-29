@@ -43,7 +43,8 @@
       "import/no-unresolved": 0,
       "jsx-quotes": 0,
       "react/no-unescaped-entities": 0,
-      "react/jsx-tag-spacing": 0
+      "react/jsx-tag-spacing": 0,
+      "react/prop-types": 0
     }
   },
   "browserslist": {
