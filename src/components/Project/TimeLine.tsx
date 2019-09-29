@@ -91,7 +91,7 @@ const TimeLine: React.FC = () => {
                 <div className='timeline-content'>
                     <p className='heading'>2019 06</p>
                     <SmallTextStyle>
-                        교내 문제풀이 및 커뮤니티 사이트. Suft
+                        교내 문제풀이 및 커뮤니티 사이트. 수프트
                     </SmallTextStyle>
                 </div>
             </div>

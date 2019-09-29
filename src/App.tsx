@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import TechStack from './components/TechStack';
 import Project from './components/Project';
 import Contact from './components/Link';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
     return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
             <TechStack/>
             <Project/>
             <Contact/>
+            <Footer/>
         </>
     );
 };
