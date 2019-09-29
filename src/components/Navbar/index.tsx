@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileAlt } from '@fortawesome/free-regular-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const TitleStyle = styled.p`
@@ -18,6 +19,12 @@ const Navbar: React.FC = () => {
             </div>
 
             <div className='navbar-end'>
+                <a className='navbar-item' href='https://blog.skylightqp.kr'>
+                    <p>
+                        <FontAwesomeIcon icon={faFileAlt}/>
+                        &nbsp;Blog
+                    </p>
+                </a>
                 <a className='navbar-item' href='https://github.com/SkyLightQP'>
                     <p>
                         <FontAwesomeIcon icon={faGithub}/>

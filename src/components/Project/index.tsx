@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-    faJsSquare, faDocker, faGithub, faReact
+ faDocker, faGithub, faJsSquare, faReact,
 } from '@fortawesome/free-brands-svg-icons';
 import SectionTitle from '../SectionTitle';
 import TimeLine from './TimeLine';
@@ -15,6 +15,10 @@ const TitleStyle = styled.p`
 const GithubLinkStyle = styled.a`
   margin-left: 8px;
   text-decoration: none;
+`;
+
+const GithubText = styled.p`
+  font-size: 18px;
 `;
 
 const Project: React.FC = () => {
@@ -31,7 +35,7 @@ const Project: React.FC = () => {
                     <Card>
                         <TitleStyle>끄투닷컴</TitleStyle>
                         <p>
-                            끄투닷컴은 2017년부터 현재까지 운영 중인 온라인 웹 끝말잇기 게임입니다.
+                            끄투닷컴은 2017년부터 현재까지 운영 중인 온라인 끝말잇기 웹게임입니다.
                             <br/>
                             끝말잇기 외에도 앞말잇기, 영어 끝말잇기, 타자게임 등을 즐길 수 있습니다.
                             <br/>
@@ -88,6 +92,10 @@ const Project: React.FC = () => {
                             </span>
                         </p>
                     </Card>
+
+                    <a className="button is-medium is-fullwidth is-dark" href='https://github.com/SkyLightQP'>
+                        <GithubText>더 많은 프로젝트는 Github에서...</GithubText>
+                    </a>
                 </div>
             </div>
 
