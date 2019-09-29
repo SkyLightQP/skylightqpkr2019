@@ -97,7 +97,7 @@ const TimeLine: React.FC = () => {
             </div>
 
             <div className='timeline-header'>
-                <span className='tag is-dark'>2016</span>
+                <span className='tag is-dark'>NOW</span>
             </div>
         </div>
     );
