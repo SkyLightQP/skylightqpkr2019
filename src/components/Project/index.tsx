@@ -44,7 +44,7 @@ const Project: React.FC = () => {
                                 &nbsp;
                                 <FontAwesomeIcon icon={faDocker}/>
                                 &nbsp;
-                                <GithubLinkStyle href='https://github.com/SkyLightQP/KKutuDotcom'>
+                                <GithubLinkStyle href='https://github.com/SkyLightQP/KKutuDotcom' target='_blank' rel='noopener noreferrer'>
                                     <FontAwesomeIcon icon={faGithub}/>
                                     &nbsp;Github
                                 </GithubLinkStyle>
@@ -66,7 +66,7 @@ const Project: React.FC = () => {
                                 &nbsp;
                                 <FontAwesomeIcon icon={faDocker}/>
                                 &nbsp;
-                                <GithubLinkStyle href='https://github.com/kkutureact/Kungtta'>
+                                <GithubLinkStyle href='https://github.com/kkutureact/Kungtta' target='_blank' rel='noopener noreferrer'>
                                     <FontAwesomeIcon icon={faGithub}/>
                                     &nbsp;Github
                                 </GithubLinkStyle>
@@ -93,7 +93,7 @@ const Project: React.FC = () => {
                         </p>
                     </Card>
 
-                    <a className="button is-medium is-fullwidth is-dark" href='https://github.com/SkyLightQP'>
+                    <a className="button is-medium is-fullwidth is-dark" href='https://github.com/SkyLightQP' target='_blank' rel='noopener noreferrer'>
                         <GithubText>더 많은 프로젝트는 Github에서...</GithubText>
                     </a>
                 </div>

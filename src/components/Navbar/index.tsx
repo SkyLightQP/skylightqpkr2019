@@ -19,13 +19,13 @@ const Navbar: React.FC = () => {
             </div>
 
             <div className='navbar-end'>
-                <a className='navbar-item' href='https://blog.skylightqp.kr'>
+                <a className='navbar-item' href='https://blog.skylightqp.kr' target='_blank' rel='noopener noreferrer'>
                     <p>
                         <FontAwesomeIcon icon={faFileAlt}/>
                         &nbsp;Blog
                     </p>
                 </a>
-                <a className='navbar-item' href='https://github.com/SkyLightQP'>
+                <a className='navbar-item' href='https://github.com/SkyLightQP' target='_blank' rel='noopener noreferrer'>
                     <p>
                         <FontAwesomeIcon icon={faGithub}/>
                         &nbsp;Github
