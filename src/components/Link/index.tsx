@@ -15,10 +15,10 @@ const Link: React.FC = () => {
     return (
         <div className='container'>
             <SectionTitle>LINK</SectionTitle>
-            <LinkStyle className="button is-dark" href='https://blog.skylightqp.kr'>
-                <b>BLOG</b>
+            <LinkStyle className="button is-dark" href='https://github.com/SkyLightQP'>
+                <b>GITHUB</b>
                 &nbsp;
-                <SmallTextStyle>blog.skylightqp.kr</SmallTextStyle>
+                <SmallTextStyle>github.com/SkyLightQP</SmallTextStyle>
             </LinkStyle>
 
             <LinkStyle className="button is-dark" href='mailto://me@skylightqp.kr'>
