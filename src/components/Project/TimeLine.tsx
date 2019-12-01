@@ -96,6 +96,16 @@ const TimeLine: React.FC = () => {
                 </div>
             </div>
 
+            <div className='timeline-item'>
+                <div className='timeline-marker'/>
+                <div className='timeline-content'>
+                    <p className='heading'>2019 11</p>
+                    <SmallTextStyle>
+                        학교 진로 프로젝트: 저작물 도용 신고 서비스. PASC
+                    </SmallTextStyle>
+                </div>
+            </div>
+
             <div className='timeline-header'>
                 <span className='tag is-dark'>NOW</span>
             </div>

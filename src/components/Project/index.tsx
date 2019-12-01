@@ -33,7 +33,7 @@ const Project: React.FC = () => {
 
                 <div className='column'>
                     <Card>
-                        <TitleStyle>끄투닷컴</TitleStyle>
+                        <TitleStyle>끄투닷컴 KKuTuDotcom</TitleStyle>
                         <p>
                             끄투닷컴은 2017년부터 현재까지 운영 중인 온라인 끝말잇기 웹게임입니다.
                             <br/>
@@ -53,7 +53,7 @@ const Project: React.FC = () => {
                     </Card>
 
                     <Card>
-                        <TitleStyle>쿵따</TitleStyle>
+                        <TitleStyle>쿵따 Kungtta</TitleStyle>
                         <p>
                             기반 언어와 라이브러리를 바꾸고 새롭게 디자인 하는 끄투 리메이크 프로젝트입니다.
                             <br/>
@@ -75,9 +75,9 @@ const Project: React.FC = () => {
                     </Card>
 
                     <Card>
-                        <TitleStyle>수프트</TitleStyle>
+                        <TitleStyle>수프트 Suft</TitleStyle>
                         <p>
-                            시험대비 문제 출제 및 CBT를 제공하는 사이트입니다. 이 밖에 커뮤니티도 제공 중입니다.
+                            시험대비 CBT를 제공하는 사이트입니다.
                             <br/>
                             백엔드에 TypeScript가 쓰이고 JsonWebToken으로 인증 시스템을 만들었습니다.
                             <br/>
@@ -89,6 +89,11 @@ const Project: React.FC = () => {
                                 <FontAwesomeIcon icon={faReact}/>
                                 &nbsp;
                                 <FontAwesomeIcon icon={faDocker}/>
+                                &nbsp;
+                                <GithubLinkStyle href='https://github.com/swsuft/suft-frontend' target='_blank' rel='noopener noreferrer'>
+                                    <FontAwesomeIcon icon={faGithub}/>
+                                    &nbsp;Github
+                                </GithubLinkStyle>
                             </span>
                         </p>
                     </Card>

@@ -34,7 +34,7 @@ const TechTag: React.FC = () => {
                 <TagStyle className='tag is-light is-medium'>
                     <TextStyle>
                         <FontAwesomeIcon icon={faJsSquare}/>
-                        &nbsp;JavaScript ES6
+                        &nbsp;JavaScript
                     </TextStyle>
                 </TagStyle>
 
@@ -48,6 +48,13 @@ const TechTag: React.FC = () => {
                     <TextStyle>
                         <FontAwesomeIcon icon={faReact}/>
                         &nbsp;React
+                    </TextStyle>
+                </TagStyle>
+
+                <TagStyle className='tag is-light is-medium'>
+                    <TextStyle>
+                        <FontAwesomeIcon icon={faReact}/>
+                        &nbsp;React Native
                     </TextStyle>
                 </TagStyle>
 
