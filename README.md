@@ -11,6 +11,13 @@
 
 ### 개발모드
 `npm run start`으로 개발 모드를 시작합니다.
+
+## Branches
+### master
+실제 개발이 이루어지는 곳입니다.
+
+### production
+개발이 완료된 후 서버에 배포되는 코드입니다.
  
 ## 라이센스
 `GNU General Public License v3.0`
