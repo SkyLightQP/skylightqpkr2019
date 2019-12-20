@@ -80,7 +80,7 @@ const Link: React.FC = () => {
             >
                 <b>CODEFORCES</b>
                 &nbsp;
-                <SmallTextStyle>combbm</SmallTextStyle>
+                <SmallTextStyle>SkyLightQP</SmallTextStyle>
             </LinkStyle>
 
             <LinkStyle
