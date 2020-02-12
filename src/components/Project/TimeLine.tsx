@@ -30,6 +30,13 @@ const TimeLine: React.FC = () => {
             <TimeLineItem date="2019 12">제2회 KB국민은행 소프트웨어 경진 대회. DOP 프론트엔드(frontend) 참여</TimeLineItem>
 
             <div className='timeline-header'>
+                <span className='tag is-dark'>2020</span>
+            </div>
+
+            <TimeLineItem date="2020 02">Hello20thon 대회. Seed 백엔드(backend) 참여</TimeLineItem>
+
+
+            <div className='timeline-header'>
                 <span className='tag is-dark'>NOW</span>
             </div>
         </div>
