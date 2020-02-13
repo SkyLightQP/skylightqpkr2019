@@ -33,7 +33,7 @@ const TimeLine: React.FC = () => {
                 <span className='tag is-dark'>2020</span>
             </div>
 
-            <TimeLineItem date="2020 02">Hello20thon 대회. Seed 백엔드(backend) 참여</TimeLineItem>
+            <TimeLineItem date="2020 02">Hello20thon 대회. Seed 백엔드(backend) 참여 - 장려상</TimeLineItem>
 
 
             <div className='timeline-header'>
